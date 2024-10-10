@@ -8,6 +8,6 @@ class FooController extends Controller
 {
     public function foobar(): string
     {
-        return User::first()->foo;
+        return User::first()->bar;
     }
 }
